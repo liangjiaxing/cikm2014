@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: retweet_cikm.aux
+The style file: abbrv.bst
+Database file #1: subjectivity.bib
+Repeated entry---line 290 of file subjectivity.bib
+ : @article{scikit-learn
+ :                      ,
+I'm skipping whatever remains of this entry
+You've used 39 entries,
+            2118 wiz_defined-function locations,
+            713 strings with 11055 characters,
+and the built_in function-call counts, 17255 in all, are:
+= -- 1748
+> -- 839
+< -- 24
++ -- 330
+- -- 290
+* -- 1170
+:= -- 2665
+add.period$ -- 139
+call.type$ -- 39
+change.case$ -- 260
+chr.to.int$ -- 0
+cite$ -- 39
+duplicate$ -- 706
+empty$ -- 1331
+format.name$ -- 290
+if$ -- 3796
+int.to.chr$ -- 0
+int.to.str$ -- 39
+missing$ -- 41
+newline$ -- 198
+num.names$ -- 78
+pop$ -- 335
+preamble$ -- 1
+purify$ -- 223
+quote$ -- 0
+skip$ -- 511
+stack$ -- 0
+substring$ -- 1078
+swap$ -- 258
+text.length$ -- 24
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 152
+warning$ -- 0
+while$ -- 161
+width$ -- 41
+write$ -- 449
+(There was 1 error message)
