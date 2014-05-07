@@ -23,7 +23,7 @@
 %\setlength\titlebox{6.5cm}    % You can expand the title box if you
 % really have to
 \begin{document}
-\title{From Topics to Opinions: Modelling Subjectivity for Retweeting Analysis on Twitter}
+\title{From Interests to Opinions: Modelling Subjectivity for Retweeting Analysis on Twitter}
 
 \maketitle
 %\mo{retweet is a text and retweeting is an action. Most "retweet" in this paper need replace by "retweeting".}
