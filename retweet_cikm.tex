@@ -15,6 +15,7 @@
 \newtheorem{hypothesis}{hypothesis}
 \newtheorem{theorem}{Theorem}
 \setlength\parindent{0pt}
+%\setlength{\parskip}{0.5\baselineskip}
 \usepackage[colorlinks,citecolor=blue,linkcolor=blue]{hyperref}
 \usepackage{color}
 \newcommand{\mo}[1]{\textcolor{red}{#1}}
@@ -43,19 +44,9 @@ Furthermore the proposed model gives significant accuracy improvement over an of
 
 \section{Introduction}
 \label{introduction}
-\noindent Microblogging has become a center of attention in the area of social media due to the amount of users it has attracted and the volume of messages it produces. 
-Microblogging services such as Twitter appear to play an important role in the process of information dissemination on the Internet, making it possible for messages to spread virally in a matter of minutes. 
-The retweeting convention and complex network of Twitter provide an unprecedented mechanism for the spread of information despite the restricted length of a single message (i.e. tweet). 
-Actually almost a quarter of the tweets are retweeted from other users \cite{yang2010understanding}. 
-Understanding how retweeting behavior works can help explaining information dissemination on Twitter. 
+\noindent It is well recognized that online social networks such as Microblogging is a complex and subtle platform that improves the diffusion of information. With the help of social networks, a company can market a new product by triggering and cascading a large number of users to adopt the product through the effect of ``word of mouth'' efect in the social network. Twitter, one of the most popular Microblogging services, has become a center of attention due to the amount of users it has attracted and the volume of messages it produces. Twitter plays an important role in the process of information dissemination on the Internet, making it possible for messages to spread virally in a matter of minutes. The retweeting convention and complex network of Twitter provide an unprecedented mechanism for the spread of information despite the restricted length of a single message (i.e. a tweet of 140 characters length). From the point of micro-level, retweeting behaviors allow the flow of information because they indicate situations where a user felt a tweet was important enough that he shared it with his followers. Actually almost a quarter of the tweets of a user are retweeted from other users \cite{yang2010understanding}. For this reason, understanding how retweeting behavior works can help explaining information dissemination on Twitter.
 
-There have been many studies trying to identify factors that influence whether a tweet will be retweeted \cite{boyd2010tweet,kwak2010twitter}. However few studies have investigated the subjective motivation of a user to retweet a message. 
-The subjective initiative nature of human determines that his behavior pattern is subjectivity driven. Psychological researchers have identified subjectivity as the underlying factor that influences human's behaviors \cite{moore2008awareness}. 
-Also according to theory of Biased Assimilation, people tend to choose and disseminate information according to their own biased subjectivity \cite{Hyman2000}. 
-Users receive thousands of tweets on different topics every day, whether a tweet will be retweeted will depend on the subjective choice of users. 
-From the point of a user, retweeting is a process that includes reading the tweet, evaluating the content and deciding whether to share. The crucial part is to evaluate whether a tweet contains information interesting to the user who might find that it is worthy to be shared.  
-Therefore modelling the subjective motivation of users will provide an important perspective for retweeting behavior analysis. 
-This research is motivated by a desire to find what drives users of social media to disseminate information they come across. 
+Usually a user receives thousands of tweets on different topics every day, whether a tweet will be retweeted will depend on the subjective choice of a user. From the point of users, retweeting is a process that includes reading the tweet, evaluating the content and deciding whether to share. The crucial part is to evaluate whether a tweet contains information interesting to the user who might find that it is worthy to be shared. The subjective initiative nature of human determines that his behavior pattern is subjectivity driven, and psychological researchers have identified subjectivity as the underlying factor that influences human's behaviors \cite{moore2008awareness}. Also according to theory of Biased Assimilation, people tend to choose and disseminate information according to their own biased subjectivity \cite{Hyman2000}. Therefore modelling the subjective motivation of users will provide an important perspective for retweeting behavior analysis. This research is motivated by a desire to find what drives users of social media to disseminate information they come across. The problem can be clearly explained by Figure~\ref{fig00}. The figure illustrates a heterogeneous network consisting of users, following relation between them and their associated tweets (posted by themselves or retweeted from their followees), which present their different opinions about two topics: cellphone ``Iphone'' and movie ``Frozen'', for example . Users of social media usually present their opinions by gennerating content on topics they are interested in, . The subjectivity of a user is encoded in the UGC on Twitter. 
 \begin{figure}[htb]
 \centering
 \includegraphics[width=1.8in,height=1.2in]{Mexample.pdf}
@@ -63,6 +54,7 @@ This research is motivated by a desire to find what drives users of social media
 \label{fig00}
 \end{figure}
 
+There have been many studies trying to identify factors that influence whether a tweet will be retweeted \cite{boyd2010tweet,kwak2010twitter}. However few studies have investigated the subjective motivation of a user to retweet a message. 
 Previous studies on retweeting analysis have shown that an enriched user model gives coherent and consistent explanation for retweeting analysis \cite{macskassy2011people,feng2013retweet}. 
 Specifically, researchers have tried to model users from four types of information:
 profile features (``\textbf{Who you are}"), tweeting behavior (``\textbf{How you tweet}"), linguistic content (``\textbf{What you tweet}") and social network (``\textbf{Whom you connect}") \cite{pennacchiotti2011machine}. 
@@ -70,8 +62,7 @@ Especially, interests of a user, i.e. topics encapsulated in User-Generated Cont
 However, to our best knowledge, few studies have considered the subjective aspect (``\textbf{what's your opinions}") when modelling a user. 
 In this paper, we propose a novel method to model subjectivity of users and tweets as well (defined as subjectivity model) by combining both the topics and opinions. 
 
-Users of social media usually present their opinions by gennerating subjective content on topics they are interested in. 
-The subjectivity of a user is encoded in the UGC on Twitter. 
+
 Therefore, we explore the tweets a user has published to establish the subjectivity model. 
 To meet the challenges of data sparsity and computational complexity, we design an algorithm to build the subjectivity model by making use of the local network structure and homophily of social network. 
 For the retweeting analysis problem, we assume that the probability a user retweets a message could be evaluated by a subjectivity similarity measurement. 
