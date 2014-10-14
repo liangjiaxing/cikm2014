@@ -31,12 +31,6 @@ P.~H. Calais~Guerra, A.~Veloso, W.~Meira~Jr, and V.~Almeida.
 \newblock In {\em Proceedings of the 17th ACM SIGKDD international conference
   on Knowledge discovery and data mining}, pages 150--158. ACM, 2011.
 
-\bibitem{cha2007comprehensive}
-S.-H. Cha.
-\newblock Comprehensive survey on distance/similarity measures between
-  probability density functions.
-\newblock {\em City}, 1(2):1, 2007.
-
 \bibitem{chen2010short}
 J.~Chen, R.~Nairn, L.~Nelson, M.~Bernstein, and E.~Chi.
 \newblock Short and tweet: experiments on recommending content from information
@@ -66,12 +60,6 @@ S.~R.~A. Fisher, S.~Genetiker, R.~A. Fisher, S.~Genetician, G.~Britain, R.~A.
   Fisher, and S.~G{\'e}n{\'e}ticien.
 \newblock {\em Statistical methods for research workers}, volume~14.
 \newblock Oliver and Boyd Edinburgh, 1970.
-
-\bibitem{hannon2010recommending}
-J.~Hannon, M.~Bennett, and B.~Smyth.
-\newblock Recommending twitter users to follow using content and collaborative
-  filtering approaches.
-\newblock In {\em Proc. of the 4th ACM ReSys}, pages 199--206. ACM, 2010.
 
 \bibitem{hong2010empirical}
 L.~Hong and B.~D. Davison.
@@ -114,6 +102,12 @@ H.~Kwak, C.~Lee, H.~Park, and S.~Moon.
 \newblock What is twitter, a social network or a news media?
 \newblock In {\em Proc. of the 19th WWW}, pages 591--600. ACM, 2010.
 
+\bibitem{lin2009joint}
+C.~Lin and Y.~He.
+\newblock Joint sentiment/topic model for sentiment analysis.
+\newblock In {\em Proceedings of the 18th ACM conference on Information and
+  knowledge management}, pages 375--384. ACM, 2009.
+
 \bibitem{liu2012sentiment}
 B.~Liu.
 \newblock Sentiment analysis and opinion mining.
@@ -136,6 +130,12 @@ M.~McPherson, L.~Smith-Lovin, and J.~M. Cook.
 \newblock Birds of a feather: Homophily in social networks.
 \newblock {\em Annual review of sociology}, pages 415--444, 2001.
 
+\bibitem{mei2007topic}
+Q.~Mei, X.~Ling, M.~Wondra, H.~Su, and C.~Zhai.
+\newblock Topic sentiment mixture: modeling facets and opinions in weblogs.
+\newblock In {\em Proceedings of the 16th international conference on World
+  Wide Web}, pages 171--180. ACM, 2007.
+
 \bibitem{moore2008awareness}
 J.~Moore and P.~Haggard.
 \newblock Awareness of action: Inference and prediction.
@@ -152,6 +152,12 @@ N.~Naveed, T.~Gottron, J.~Kunegis, and A.~C. Alhadi.
 N.~Naveed, T.~Gottron, J.~Kunegis, and A.~C. Alhadi.
 \newblock Searching microblogs: coping with sparsity and document quality.
 \newblock In {\em Proc. of the 20th ACM CIKM}, pages 183--188. ACM, 2011.
+
+\bibitem{pang2008opinion}
+B.~Pang and L.~Lee.
+\newblock Opinion mining and sentiment analysis.
+\newblock {\em Foundations and trends in information retrieval}, 2(1-2):1--135,
+  2008.
 
 \bibitem{scikit-learn}
 F.~Pedregosa, G.~Varoquaux, A.~Gramfort, V.~Michel, B.~Thirion, O.~Grisel,
@@ -175,10 +181,25 @@ R.~Pfitzner, A.~Garas, and F.~Schweitzer.
 \newblock Emotional divergence influences information spreading in twitter.
 \newblock In {\em ICWSM}, 2012.
 
-\bibitem{ramage10microblogs}
-D.~Ramage, S.~Dumais, and D.~Liebling.
-\newblock Characterizing microblogs with topic models.
-\newblock In {\em ICWSM}, 2010.
+\bibitem{ramage2009labeled}
+D.~Ramage, D.~Hall, R.~Nallapati, and C.~D. Manning.
+\newblock Labeled lda: A supervised topic model for credit attribution in
+  multi-labeled corpora.
+\newblock In {\em Proceedings of the 2009 Conference on Empirical Methods in
+  Natural Language Processing: Volume 1-Volume 1}, pages 248--256. Association
+  for Computational Linguistics, 2009.
+
+\bibitem{rehurek_lrec}
+R.~{\v R}eh{\r u}{\v r}ek and P.~Sojka.
+\newblock {Software Framework for Topic Modelling with Large Corpora}.
+\newblock In {\em {Proceedings of the LREC 2010 Workshop on New Challenges for
+  NLP Frameworks}}, pages 45--50, Valletta, Malta, May 2010. ELRA.
+
+\bibitem{rosen2004author}
+M.~Rosen-Zvi, T.~Griffiths, M.~Steyvers, and P.~Smyth.
+\newblock The author-topic model for authors and documents.
+\newblock In {\em Proceedings of the 20th conference on Uncertainty in
+  artificial intelligence}, pages 487--494. AUAI Press, 2004.
 
 \bibitem{starbird2012will}
 K.~Starbird and L.~Palen.
@@ -211,19 +232,16 @@ M.~Thelwall, K.~Buckley, G.~Paltoglou, D.~Cai, and A.~Kappas.
 \newblock {\em Journal of the American Society for Information Science and
   Technology}, 61(12):2544--2558, 2010.
 
-\bibitem{weng2010twitterrank}
-J.~Weng, E.-P. Lim, J.~Jiang, and Q.~He.
-\newblock Twitterrank: finding topic-sensitive influential twitterers.
-\newblock In {\em Proc. of the third ACM WSDM}, pages 261--270. ACM, 2010.
-
-\bibitem{xu2012modeling}
-Z.~Xu, Y.~Zhang, Y.~Wu, and Q.~Yang.
-\newblock Modeling user posting behavior on social media.
-\newblock In {\em Proc. of the 35th ACM SIGIR}, pages 545--554. ACM, 2012.
-
 \bibitem{yang2010understanding}
 Z.~Yang, J.~Guo, K.~Cai, J.~Tang, J.~Li, L.~Zhang, and Z.~Su.
 \newblock Understanding retweeting behaviors in social networks.
 \newblock In {\em Proc. of the 19th ACM CIKM}, pages 1633--1636. ACM, 2010.
+
+\bibitem{zhao2012user}
+T.~Zhao, C.~Li, Q.~Ding, and L.~Li.
+\newblock User-sentiment topic model: refining user's topics with sentiment
+  information.
+\newblock In {\em Proceedings of the ACM SIGKDD Workshop on Mining Data
+  Semantics}, page~10. ACM, 2012.
 
 \end{thebibliography}

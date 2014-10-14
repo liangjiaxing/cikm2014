@@ -3,49 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: retweet_cikm.aux
 The style file: abbrv.bst
 Database file #1: subjectivity.bib
-Repeated entry---line 290 of file subjectivity.bib
- : @article{scikit-learn
- :                      ,
-I'm skipping whatever remains of this entry
-You've used 39 entries,
+You've used 41 entries,
             2118 wiz_defined-function locations,
-            713 strings with 11055 characters,
-and the built_in function-call counts, 17255 in all, are:
-= -- 1748
-> -- 839
-< -- 24
-+ -- 330
-- -- 290
-* -- 1170
-:= -- 2665
-add.period$ -- 139
-call.type$ -- 39
-change.case$ -- 260
+            732 strings with 11813 characters,
+and the built_in function-call counts, 18402 in all, are:
+= -- 1877
+> -- 886
+< -- 27
++ -- 349
+- -- 306
+* -- 1246
+:= -- 2828
+add.period$ -- 148
+call.type$ -- 41
+change.case$ -- 274
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 706
-empty$ -- 1331
-format.name$ -- 290
-if$ -- 3796
+cite$ -- 41
+duplicate$ -- 755
+empty$ -- 1415
+format.name$ -- 306
+if$ -- 4062
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 41
-newline$ -- 198
-num.names$ -- 78
-pop$ -- 335
+int.to.str$ -- 41
+missing$ -- 43
+newline$ -- 208
+num.names$ -- 82
+pop$ -- 354
 preamble$ -- 1
-purify$ -- 223
+purify$ -- 235
 quote$ -- 0
-skip$ -- 511
+skip$ -- 551
 stack$ -- 0
-substring$ -- 1078
-swap$ -- 258
-text.length$ -- 24
+substring$ -- 1165
+swap$ -- 282
+text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 152
+type$ -- 160
 warning$ -- 0
-while$ -- 161
-width$ -- 41
-write$ -- 449
-(There was 1 error message)
+while$ -- 173
+width$ -- 43
+write$ -- 476
